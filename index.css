@@ -2,6 +2,42 @@
     padding: 10px;
 }
 
-.footer{
-    background-color: greenyellow;
+.row{
+    border: 1px solid #ff92b9;
+}
+
+.col{
+    border: 1px solid black;
+}
+
+#verdedir{
+    background-color: white;
+    min-height: 450px;
+    min-width: 50px;
+}
+
+#PretoCentro{
+    background-color: white;
+    min-height: 450px;
+    padding: 1% ;
+}
+
+#verdeesq{
+    background-color: white;
+    min-height: 450px;
+    min-width: 50px;
+}
+
+footer{
+    background: #ff92b9;
+}
+/*sides laterais resposive*/
+#sides{
+    width: auto;
+    height: auto;
+}
+
+#video{
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
