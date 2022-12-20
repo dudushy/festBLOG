@@ -17,15 +17,22 @@
 }
 
 #PretoCentro{
-    background-color: white;
+    background-color: #ff92b9;
     min-height: 450px;
-    padding: 1% ;
+    max-width: none;
+    padding: 3% ;
+    border-radius: 3%;
+    border: 5px;
 }
 
 #verdeesq{
     background-color: white;
     min-height: 450px;
     min-width: 50px;
+}
+
+#centroDir{
+    background-color: #ff92b9;
 }
 
 footer{
@@ -35,9 +42,17 @@ footer{
 #sides{
     width: auto;
     height: auto;
+    padding: 2%;
+    padding-bottom: 10%;
+    
 }
 
 #video{
     padding-top: 1%;
     padding-bottom: 1%;
 }
+
+body{
+    font-family: "Roboto", serif;
+} 
+
