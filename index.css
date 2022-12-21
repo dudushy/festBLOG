@@ -92,3 +92,15 @@ a.nav-link.active, a.nav-link.dropdown-toggle{
 #marginCursos{
     margin-left: 0px;
 }
+
+button.btn.btn-outline-success{
+    --bs-btn-border-color:#ff92b9;
+    --bs-btn-color:#ff92b9;
+    --bs-btn-hover-bg:#ff92b9;
+    --bs-btn-hover-border-color: #ff92b9;
+}
+
+input.form-control.me-2{
+    
+}
+
