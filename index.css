@@ -1,58 +1,94 @@
-.img{
+.img {
     padding: 10px;
 }
 
-.row{
+.row {
     border: 1px solid #ff92b9;
 }
 
-.col{
+.col {
     border: 1px solid black;
 }
 
-#verdedir{
+#verdedir {
     background-color: white;
     min-height: 450px;
     min-width: 50px;
 }
 
-#PretoCentro{
+#PretoCentro {
     background-color: #ff92b9;
     min-height: 450px;
     max-width: none;
-    padding: 3% ;
-    border-radius: 3%;
+    padding: 3%;
     border: 5px;
+    border-top-left-radius: 3%;
+    border-bottom-left-radius: 3%;
+    color: white;
 }
 
-#verdeesq{
+#verdeesq {
     background-color: white;
     min-height: 450px;
     min-width: 50px;
 }
 
-#centroDir{
+#centroDir {
     background-color: #ff92b9;
+    min-height: 450px;
+    max-width: none;
+    padding: 3%;
+    border: 5px;
+    border-top-right-radius: 3%;
+    border-bottom-right-radius: 3%;
 }
 
-footer{
+footer {
     background: #ff92b9;
 }
+
 /*sides laterais resposive*/
-#sides{
+#sides {
     width: auto;
     height: auto;
     padding: 2%;
-    padding-bottom: 10%;
-    
+    padding-bottom: 3%;
+
 }
 
-#video{
+#video {
     padding-top: 1%;
     padding-bottom: 1%;
 }
 
-body{
-    font-family: "Roboto", serif;
-} 
+body {
+    font-family: "montserrat", serif;
+}
 
+/* colors fonts */
+p,
+h5 {
+    color: white;
+}
+
+i {
+    display: flex;
+}
+
+.nav-item, #InstagramIcon, #FacebookIcon , #YoutubeIcon{
+    display: inline-flex;
+    align-items: center;
+}
+
+ul.dropdown-menu.show{
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+a.nav-link.active, a.nav-link.dropdown-toggle{
+    margin-left: 10px;
+}
+
+#marginCursos{
+    margin-left: 0px;
+}
