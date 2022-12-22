@@ -61,6 +61,7 @@ footer {
     padding-bottom: 1%;
 }
 
+/* estilização FONTE */
 body {
     font-family: "montserrat", serif;
 }
@@ -71,6 +72,7 @@ h5 {
     color: white;
 }
 
+/* alinhamento icones NAVBAR */
 i {
     display: flex;
 }
@@ -78,6 +80,8 @@ i {
 .nav-item, #InstagramIcon, #FacebookIcon , #YoutubeIcon{
     display: inline-flex;
     align-items: center;
+    margin-right: 3%;
+
 }
 
 ul.dropdown-menu.show{
@@ -85,14 +89,13 @@ ul.dropdown-menu.show{
     padding-right: 8px;
 }
 
-a.nav-link.active, a.nav-link.dropdown-toggle{
+a.nav-link.active, a.nav-link.dropdown-toggle {
     margin-left: 10px;
 }
 
-#marginCursos{
-    margin-left: 0px;
-}
 
+
+/* cor botão "PESQUISAR" */
 button.btn.btn-outline-success{
     --bs-btn-border-color:#ff92b9;
     --bs-btn-color:#ff92b9;
@@ -100,7 +103,63 @@ button.btn.btn-outline-success{
     --bs-btn-hover-border-color: #ff92b9;
 }
 
-input.form-control.me-2{
+
+/* borda arredondada carrousel */
+img.d-block.w-100{
+    border-radius: 5%;
+}
+
+/* cor fonte navbar */
+#NoticiasNAV:hover, 
+#tutorial:hover, 
+#redesNAV:hover, 
+#instaNAV:hover, 
+#youtubeNAV:hover, 
+#facebookNAV:hover,
+#marginCursos:hover{ 
+    color:#ff92b9; 
+}   
+
+/* dimensão barra navegação CURSOS */
+#marginCursos{
+    margin-left: 0px;
     
 }
 
+/* marginIcones Redes Sociais */
+
+
+#youtubeNAV.dropdown-item{
+    margin-right: 12px;
+}
+
+#facebookNAV.dropdown-item{
+    margin-right: 6px;
+}
+
+#instaNAV.dropdown-item{
+    margin-right: 3px;
+}
+
+
+/* Arredondamento Borda DropdownMenu */
+#NoticiasNAV, 
+#tutorial, 
+#redesNAV, 
+#instaNAV, 
+#youtubeNAV, 
+#facebookNAV,
+#marginCursos{
+    border-radius: 5%;
+    margin: 3%;
+}
+
+#redesNAV,
+#NoticiasNAV, 
+#tutorial,
+#instaNAV, 
+#youtubeNAV, 
+#facebookNAV,
+#marginCursos {
+    color: gray;
+}
