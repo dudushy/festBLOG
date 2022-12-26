@@ -177,8 +177,91 @@ section{
 }
 
 .institucional{
-    text-decoration-color: white;
-    padding-top: 2%;
-    background-color: black;
+    padding-top: 3%;
+    text-align: center;
+    color: white;
+    display: inline-block;
+
+}
+
+/* link decoração */
+a:link{
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited{
+    color: gray;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover{
+    color: gray;
+}
+
+/* a:active{
+    color: gray;
+    background-color: transparent;
+    text-decoration: solid;
+} */
+
+/*iconsMedia */
+#InstaMedia,
+#YTmedia,
+#faceMedia{
+    display: inline-flex;
+    flex-wrap: nowrap;
+    width: 30px;
+    height: 30px;
+
+} 
+
+.figure{
+    justify-content: center;    
+    display: flex;
+    margin-top: 3%;
+} 
+
+
+.balaoFigura{
+    display: flex;
+    justify-content: center;
+}
+
+/* .MediaSociais{
+max-width: 100px;
+min-height: 100px;
+justify-content: space-evenly;
+flex-wrap: nowrap;
+display: flex;
+flex-direction: row;
+} */
+
+.NavSocial{
+    margin: 0;
+    padding: 0;
     text-align: center;
 }
+
+.NavSocial li{
+    display: inline-block;
+    padding: 20px;
+}
+
+.borderInstitucional{
+    border-color: white;
+    border-right: 1px;
+    border-left: 1px;
+    border-style: solid;
+    border-bottom: transparent;
+    border-top: transparent;
+    margin-top: 10%;
+}
+
+/* Border Footer Center */
+#sessaoBorder{
+    padding:1%;
+}
+
